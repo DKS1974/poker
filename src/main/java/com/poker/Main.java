@@ -12,7 +12,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws IOException {
         if (args.length != 1) {
-            System.out.println("Usage: java -jar poker-1.0-SNAPSHOT-jar-with-dependencies.jar <hands input  file path a>");
+            System.out.println("Usage: java -jar poker-1.0-SNAPSHOT-jar-with-dependencies.jar <hands input  file path >");
             System.exit(0);
         }
         run(args[0]);
